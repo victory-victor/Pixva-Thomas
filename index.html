@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.8/dist/lenis.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <style>
+        @font-face {
+            font-family: china;
+            src: url('./Fontspring-DEMO-rocgrotesk-regular.woff2');
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+        }
+
+        img {
+            height: 100%;
+            width: 100%;
+            object-fit: cover;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(8, 15vw);
+            grid-template-rows: repeat(20, 15vw);
+            gap: 0.5rem;
+        }
+
+        .grid>div {
+            grid-row: var(--r);
+            grid-column: var(--c);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="w-full bg-zinc-900 overflow-hidden">
+        <div class="grid grid-cols-8 grid-rows-20 gap-2 p-20 overflow-hidden">
+            <div class="elem col-span-1 row-span-1" style="--r: 2; --c: 1"><img loading="lazy"
+                    src="https://images.pexels.com/photos/413885/pexels-photo-413885.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 5; --c: 1"><img loading="lazy"
+                    src="https://images.pexels.com/photos/160545/girl-grass-sunset-light-160545.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 6"><img loading="lazy"
+                    src="https://images.pexels.com/photos/7100133/pexels-photo-7100133.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 12; --c: 2"><img loading="lazy"
+                    src="https://images.pexels.com/photos/11367686/pexels-photo-11367686.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 16; --c: 2"><img loading="lazy"
+                    src="https://images.pexels.com/photos/319973/pexels-photo-319973.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 19; --c: 4"><img loading="lazy"
+                    src="https://images.pexels.com/photos/3756686/pexels-photo-3756686.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 3; --c: 5"><img loading="lazy"
+                    src="https://images.pexels.com/photos/12810667/pexels-photo-12810667.jpeg?auto=compress&cs=tinysrgb&w=640" alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 4"><img loading="lazy"
+                    src="https://images.pexels.com/photos/5886042/pexels-photo-5886042.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 14; --c: 4"><img loading="lazy"
+                    src="https://images.pexels.com/photos/1959853/pexels-photo-1959853.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 15; --c: 6"><img loading="lazy"
+                    src="https://images.pexels.com/photos/8183916/pexels-photo-8183916.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 18; --c: 1"><img loading="lazy"
+                    src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 3"><img loading="lazy"
+                    src="https://images.pexels.com/photos/3284696/pexels-photo-3284696.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 2"><img loading="lazy"
+                    src="https://images.pexels.com/photos/7897201/pexels-photo-7897201.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 5"><img loading="lazy"
+                    src="https://images.pexels.com/photos/16479598/pexels-photo-16479598.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 12; --c: 5"><img loading="lazy"
+                    src="https://images.pexels.com/photos/1021693/pexels-photo-1021693.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 17; --c: 3"><img loading="lazy"
+                    src="https://images.pexels.com/photos/1036623/pexels-photo-1036623.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 20; --c: 5"><img loading="lazy"
+                    src="https://images.pexels.com/photos/4458627/pexels-photo-4458627.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 10; --c: 1"><img loading="lazy"
+                    src="https://images.pexels.com/photos/9774832/pexels-photo-9774832.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 14; --c: 1"><img loading="lazy"
+                    src="https://images.pexels.com/photos/8182355/pexels-photo-8182355.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 6"><img loading="lazy"
+                    src="https://images.pexels.com/photos/2043590/pexels-photo-2043590.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt=""></div>
+            <div class="elem col-span-1 row-span-1" style="--r: 6; --c: 4">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/30804921/pexels-photo-30804921.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 1; --c: 2">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/160590/girls-beauty-makeup-dark-160590.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 13; --c: 6">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/29794700/pexels-photo-29794700.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 9; --c: 3">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/21367286/pexels-photo-21367286.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 17; --c: 5">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/5762496/pexels-photo-5762496.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 8; --c: 1">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/2681751/pexels-photo-2681751.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 11; --c: 3">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 20; --c: 1">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/859199/pexels-photo-859199.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 7; --c: 5">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/2036650/pexels-photo-2036650.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+            <div class="elem col-span-1 row-span-1" style="--r: 4; --c: 6">
+                <img loading="lazy"
+                    src="https://images.pexels.com/photos/10459945/pexels-photo-10459945.jpeg?auto=compress&cs=tinysrgb&w=640"
+                    alt="">
+            </div>
+        </div>
+        <div class="text-white flex justify-center items-center fixed top-0 left-0 w-full h-full flex-col">
+            <h2 class="text-8xl font-medium tracking-tighter font-[china] uppercase">Thomas Vance</h2>
+            <h3 class="text-2xl font-[china] tracking-tighter uppercase">こんにちは、世界！</h2>
+        </div>
+        <div class="w-full h-screen bg-[#D1D1D1] flex justify-center items-center p-65 text-lg relative z-10">
+            <p class="font-[china] text-4xl leading-10">Thomas Vance is a renowned clothing brand known for its exceptional fashion and unique designs. Our collections are crafted with the finest materials and attention to detail, ensuring that each piece is a work of art. Discover the elegance and sophistication of Thomas Vance, where fashion meets excellence ®</p>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/gsap.min.js" integrity="sha512-NcZdtrT77bJr4STcmsGAESr06BYGE8woZdSdEgqnpyqac7sugNO+Tr4bGwGF3MsnEkGKhU2KL2xh6Ec+BqsaHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.13.0/ScrollTrigger.min.js" integrity="sha512-P2IDYZfqSwjcSjX0BKeNhwRUH8zRPGlgcWl5n6gBLzdi4Y5/0O4zaXrtO4K9TZK6Hn1BenYpKowuCavNandERg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/lenis@1.3.8/dist/lenis.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
